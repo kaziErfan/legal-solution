@@ -2,3 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.font-primary {
+    font-family: "EB Garamond", serif;
+}
+.font-text {
+    font-family: "Poppins", sans-serif;
+  }
