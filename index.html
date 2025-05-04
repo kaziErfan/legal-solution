@@ -27,7 +27,6 @@
             'primary-color': '#B68C5A',
             'secondary-color': '#414040',
             'text-color': '#707070',
-
           }
         }
       }
@@ -35,7 +34,8 @@
   </script>
 
 <body>
-  <header class="mx-auto md:max-w-7xl pt-5">
+  <header class="lg:max-w-7xl mx-auto px-4">
+    <!-- Navbar -->
     <nav class="px-4 lg:px-0 md:px-0">
       <div class="navbar justify-between">
         <div class=" items-center">
@@ -76,6 +76,23 @@
         </div>
       </div>
     </nav>
+    <!-- Banner/Hero Section -->
+    <div class="hero py-28 rounded-lg my-14 lg:min-h-[550px]"
+      style="background-image: url(./assests/images/banner.png); background-size: cover;">
+      <div class="hero-overlay"></div>
+      <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-lg space-y-8">
+          <h1 class="mb-5 text-5xl font-bold font-primary text-white">We Provide Effective Legal Solutions</h1>
+          <p class="mb-5 font-text text-sm">
+            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+          </p>
+          <div class="font-text space-x-2">
+            <input class="input py-6 px-6 text-sm text-black" type="search" required placeholder="Search Your Services"/>
+            <button class="btn bg-primary-color text-white px-10 py-6 font-semi-bold">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <main>
   </main>
